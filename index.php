@@ -24,7 +24,14 @@
         <div class="ui grid" style="margin-top: 20px;">
             <div class="eight wide centered row">
                 <?php    
-                    // Setup le proxy pour Webetu ici
+                    $default_opts = array(
+                        'http'=>array(
+                            'proxy'=>"www-cache:3128",
+                            'request_fulluri'=>true
+                        )
+                    );
+                      
+                    $default = stream_context_set_default($default_opts);
                 
                     $adress_nantes = "Nantes";
                     $api_key = "AIzaSyAUyVBen58FMOii8MUwfqWV_5bPog_rAvg";
@@ -44,7 +51,7 @@
             </div>
         </div>
 
-        <div id="mapid" style="height: 500px; width: 70%; margin: auto; z-index: 0"></div>            
+        <div id="mapid" style="height: 80%; width: 80%; margin: auto; z-index: 0"></div>            
 
         <script>    
             <?php
