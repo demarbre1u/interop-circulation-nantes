@@ -23,7 +23,9 @@
 
         <div class="ui grid" style="margin-top: 20px;">
             <div class="eight wide centered row">
-                <?php                    
+                <?php    
+                    // Setup le proxy pour Webetu ici
+                
                     $adress_nantes = "Nantes";
                     $api_key = "AIzaSyAUyVBen58FMOii8MUwfqWV_5bPog_rAvg";
                     $geo_url = "https://maps.googleapis.com/maps/api/geocode/json?address=$adress_nantes&key=$api_key";
@@ -37,14 +39,7 @@
 
                     $info_url = "http://api.loire-atlantique.fr/opendata/1.0/traficevents?filter=Tous";
                     $info_data = file_get_contents($info_url);
-                    $info_json = json_decode($info_data);
-
-                    /*
-                    echo "<pre>";
-                    var_dump($info_json->data);
-                    echo "</pre>";
-                    */
-                    
+                    $info_json = json_decode($info_data);                    
                 ?>
             </div>
         </div>
