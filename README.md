@@ -22,4 +22,4 @@ Il ne vous reste ensuite plus qu'à accéder à l'URL correspondnte pour utilise
 
 ## Lien vers Webetu
 
-https://webetu.iutnc.univ-lorraine.fr/www/demarbre1u/interoperabilite_js/
+https://webetu.iutnc.univ-lorraine.fr/www/demarbre1u/interoperabilite/js/
