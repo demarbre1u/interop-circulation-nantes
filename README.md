@@ -15,11 +15,7 @@ Il permet d'afficher les différents endroits présentant une circulation diffic
 Pour faire fonctionner le projet, il faudra d'abord le cloner dans votre répertoire `www/` Apache :
 
 ```
-git clone git@github.com:demarbre1u/Interop_Circulation-Nantes.git
+git clone git@github.com:demarbre1u/interop-circulation-nantes.git
 ```
 
 Il ne vous reste ensuite plus qu'à accéder à l'URL correspondnte pour utiliser l'application !
-
-## Lien vers Webetu
-
-https://webetu.iutnc.univ-lorraine.fr/www/demarbre1u/interoperabilite/js/
